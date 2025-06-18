@@ -64,7 +64,14 @@
   display: none;
 }
 
-
+/* Responsive text styling */
+@media (max-width: 640px) {
+  .Welcome-box {
+    border-radius: 24px;
+  }
+  
+  /* Add more responsive styles as needed */
+}
 
 html {
   scroll-behavior: smooth;
